@@ -7,3 +7,7 @@ g
 7src/ejercicio01_provincias_de_andalucia/DiasSemana.java,0\3\036f7cc72a9df2a61a0e4330f6ce7128f8918db4
 m
 =src/ejercicio02_calculos_aritmeticos/CalculosAritmeticos.java,5\0\50a8ca0fc2b99f2a86dafc7dfb0dd3cea8ef4c5b
+m
+=src/ejercicio02_calculos_aritmeticos/ejercicio02_enunciado.md,3\0\30f8063cda98c1706d20f5adc9d77e2e9d9dd36f
+m
+=src/ejercicio02_calculos_aritmeticos/ejercicio02-enunciado.md,b\4\b4a54273f0390d4c9936f5005849620477da8380
