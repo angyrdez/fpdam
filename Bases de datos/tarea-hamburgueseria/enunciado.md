@@ -14,8 +14,15 @@ Por otra parte, para el reparto de los pedidos a domicilio también se cuenta co
 La hamburguesería dispone de varias motos para el reparto de los pedidos a domicilio. Las motos están numeradas de forma correlativa y además se guarda la matrícula, marca, modelo, cilindrada y año. Cada repartidor tendrá asignada una única moto que será la que utilice para realizar los repartos.  Una misma moto podrá ser utilizada por varios repartidores.
 
 ## Ejercicio 1
+Elabora el diagrama Entidad-Relación. Para ello:
+1. Identifica las entidades, atributos y relaciones.
+2. Identifica las claves candidatas y determina la clave primaria.
+3. Estudia las cardinalidades de entidades y cardinalidades de relaciones.
+4. Identifica otros elementos del modelo ER Extendido.
+5. Representa el diagrama E-R
 
 
+## Ejercicio 2
 
 ### Diagrama E-R
 ![alt text](image.png)

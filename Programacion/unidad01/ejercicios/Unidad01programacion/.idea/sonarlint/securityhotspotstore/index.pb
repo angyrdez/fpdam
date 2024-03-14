@@ -5,3 +5,5 @@ p
 @src/ejercicio01_provincias_de_andalucia/ProvinciasAndalucia.java,a\f\af6538dd095f9384ccec5116b199831edcf5b9d1
 g
 7src/ejercicio01_provincias_de_andalucia/DiasSemana.java,0\3\036f7cc72a9df2a61a0e4330f6ce7128f8918db4
+m
+=src/ejercicio02_calculos_aritmeticos/CalculosAritmeticos.java,5\0\50a8ca0fc2b99f2a86dafc7dfb0dd3cea8ef4c5b
