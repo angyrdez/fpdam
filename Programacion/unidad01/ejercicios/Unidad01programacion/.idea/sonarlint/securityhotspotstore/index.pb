@@ -1,0 +1,7 @@
+
+p
+@src/ejercicio01_provincias_de_andalucia/ejercicio01-enunciado.md,e\f\efd735aea59d7d5e1c7b7750fc80b95f3e843e7c
+p
+@src/ejercicio01_provincias_de_andalucia/ProvinciasAndalucia.java,a\f\af6538dd095f9384ccec5116b199831edcf5b9d1
+g
+7src/ejercicio01_provincias_de_andalucia/DiasSemana.java,0\3\036f7cc72a9df2a61a0e4330f6ce7128f8918db4
