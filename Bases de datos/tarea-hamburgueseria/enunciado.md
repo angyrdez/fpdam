@@ -23,6 +23,11 @@ Elabora el diagrama Entidad-Relación. Para ello:
 
 
 ## Ejercicio 2
+A partir del siguiente diagrama, realiza los siguientes puntos:
+1. El paso a tablas de entidades y sus atributos.
+2. El paso a tablas de los elementos del diagrama Entidad Relación Extendido
+3. El paso a tablas de las relaciones y posibles atributos.
+4. Representa el modelo relacional
 
 ### Diagrama E-R
-![alt text](image.png)
+![alt text](modelo-ER.png)

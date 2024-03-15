@@ -8,6 +8,4 @@ g
 m
 =src/ejercicio02_calculos_aritmeticos/CalculosAritmeticos.java,5\0\50a8ca0fc2b99f2a86dafc7dfb0dd3cea8ef4c5b
 m
-=src/ejercicio02_calculos_aritmeticos/ejercicio02_enunciado.md,3\0\30f8063cda98c1706d20f5adc9d77e2e9d9dd36f
-m
 =src/ejercicio02_calculos_aritmeticos/ejercicio02-enunciado.md,b\4\b4a54273f0390d4c9936f5005849620477da8380

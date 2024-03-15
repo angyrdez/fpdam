@@ -3,7 +3,9 @@ package ejercicio01_provincias_de_andalucia;
 public class ProvinciasAndalucia {
 
     // Definimos el enum con las provincias
-    public enum Provincias {ALMERIA,CADIZ,CORDOBA,GRANADA,HUELVA,MALAGA,JAEN,SEVILLA};
+    public enum Provincias {ALMERIA, CADIZ, CORDOBA, GRANADA, HUELVA, MALAGA, JAEN, SEVILLA}
+
+    ;
 
 
     public static void main(String[] args) {

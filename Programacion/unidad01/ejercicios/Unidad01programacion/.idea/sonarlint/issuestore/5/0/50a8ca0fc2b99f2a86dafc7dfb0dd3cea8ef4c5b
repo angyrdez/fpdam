@@ -1,16 +1,25 @@
 
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ê»Ä­øÿÿÿÿ8ÌîÄòã1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ê»Ä­øÿÿÿÿ8œùüä1
+[
+java:S1854t">Remove this useless assignment to local variable "diferencia".(ğÜ8ˆ‰ä1
+U
+java:S1854q"8Remove this useless assignment to local variable "suma".(©ÑÛ„8ˆ‰ä1
+d
+java:S1854g"GRemove this useless assignment to local variable "cuadrupleDiferencia".(»Å¥8¯ùüä1
+]
+java:S1854F"ARemove this useless assignment to local variable "mitadCuadrado".(†‚›E8¯ùüä1
 B
-java:S1659"%Declare "numero2" on a separate line.(§ÌÌñ8ÜîÄòã1
+java:S1659"%Declare "numero2" on a separate line.(§ÌÌñ8±ùüä1
 i
-java:S1659"GDeclare "decimaNum2" and all following declarations on a separate line.(–±Û¤úÿÿÿÿ8İîÄòã1
+java:S1659"GDeclare "decimaNum2" and all following declarations on a separate line.(–±Û¤úÿÿÿÿ8±ùüä1
 m
-java:S1659"KDeclare "multiplicacion" and all following declarations on a separate line.(îÉ°íùÿÿÿÿ8İîÄòã1
+java:S1659"KDeclare "multiplicacion" and all following declarations on a separate line.(À£ñ´ıÿÿÿÿ8²ùüä1
 W
-java:S1481"5Remove this unused "cuadradoSemisuma" local variable.(–±Û¤úÿÿÿÿ8ŞîÄòã1
+java:S1481"5Remove this unused "cuadradoSemisuma" local variable.(–±Û¤úÿÿÿÿ8³ùüä1
 Z
-java:S1481"8Remove this unused "cuadrupleDiferencia" local variable.(–±Û¤úÿÿÿÿ8ŞîÄòã1
-T
-java:S1481"2Remove this unused "mitadCuadrado" local variable.(–±Û¤úÿÿÿÿ8ŞîÄòã1
-X	java:S125@"<This block of commented-out lines of code should be removed.(Áè´š8šÒòã1
-W	java:S125s"<This block of commented-out lines of code should be removed.(æÆÙ}8äîÄòã1
+java:S1481"8Remove this unused "cuadrupleDiferencia" local variable.(–±Û¤úÿÿÿÿ8³ùüä1
+X	java:S125?"<This block of commented-out lines of code should be removed.(Áè´š8ºùüä1
+X	java:S125G"<This block of commented-out lines of code should be removed.(Ú×©ö8ºùüä1
+X	java:S125P"<This block of commented-out lines of code should be removed.(ƒ¾²…8ºùüä1
+W	java:S125_"<This block of commented-out lines of code should be removed.(æÆÙ}8»ùüä1
+X	java:S125w"<This block of commented-out lines of code should be removed.(é¯¾8Öã†ä1

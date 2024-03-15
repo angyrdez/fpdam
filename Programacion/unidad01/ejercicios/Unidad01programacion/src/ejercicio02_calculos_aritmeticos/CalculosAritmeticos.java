@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CalculosAritmeticos {
 
-    public static void main (String[] args){
+    public static void main(String[] args) {
 
         //----------------------------------------------
         //          Declaración de variables
@@ -16,16 +16,16 @@ public class CalculosAritmeticos {
 
         // Variables de salida por consola
 
-        double tripleNum1, decimaNum2, cuadradoDoble, tresCuartos, semiSuma, cuadradoSemisuma,cuadrupleDiferencia, mitadCuadrado;
+        double tripleNum1, decimaNum2, cuadradoDoble, tresCuartos, semiSuma, cuadradoSemisuma, cuadrupleDiferencia, mitadCuadrado;
 
 
         // Variables auxiliares
 
-        double suma, multiplicacion, division;
+        double suma, multiplicacion, division, diferencia;
 
 
         // Clase Scanner para la petición de datos de entrada por teclado
-        Scanner teclado = new Scanner (System.in);
+        Scanner teclado = new Scanner(System.in);
 
         //----------------------------------------------
         //                Entrada de datos
@@ -50,57 +50,37 @@ public class CalculosAritmeticos {
 
         decimaNum2 = numero2 / 10;
 
-
         //-------------------------------------------------
         // 3. El cuadrado del doble del producto de ambos números.
 
         // Primero multiplicamos y obtenemos el producto de ambos números
-        multiplicacion = numero1*numero2;
+        multiplicacion = numero1 * numero2;
 
         // Obtenemos el cuadrado del doble del producto
-        cuadradoDoble = (multiplicacion*2)*(multiplicacion*2);
+        cuadradoDoble = (multiplicacion * 2) * (multiplicacion * 2);
 
         // También se puede utilizar el método pow de la clase Math
         // cuadradoDoble = Math.pow(2 * (numero1 * numero2), 2);
 
-
-
         //-------------------------------------------------
-        // 4. La mitad del cuadrado de la suma de ambos números.
+        // 4. La mitad del cuadrado de la suma de ambos números
 
-        
+        suma = numero1 + numero2;
 
-
+        mitadCuadrado = (suma * suma) / 2;
+        // mitadCuadrado = 0.5 * Math.pow(numero1 + numero2, 2);
 
 
         //-------------------------------------------------
         // 5. Tres cuartas partes del primer numero.
 
-
-        //-------------------------------------------------
-        // 6. Cuadrado de la semisuma de los dos números.
-
-
-        //-------------------------------------------------
-        // 7. Cuádruple de la diferencia entre ambos números.
-
-
-
-        //-------------------------------------------------
-        // 8. Mitad del cuadrado de la suma por la diferencia de ambos números.
-
-
-
-
-
-
-
-        // CALCULO: TRES CUARTAS PARTES DEL PRIMER NUMERO
-
         division = numero1 / 4;
         tresCuartos = division * 3;
 
-        // CUADRADO DE LA SEMISUMA DE LOS DOS NUMEROS
+        // Otra forma: tresCuartos= numero1 * 0.75;
+
+        //-------------------------------------------------
+        // 6. Cuadrado de la semisuma de los dos números.
 
         //En primer lugar, realizamos la suma de los numeros
 
@@ -108,7 +88,7 @@ public class CalculosAritmeticos {
 
         // Después realizamos la división de la suma
 
-        semiSuma = (suma/2)*(suma/2);
+        semiSuma = (suma / 2) * (suma / 2);
 
         // Otra manera de hacerlo:
 
@@ -116,8 +96,27 @@ public class CalculosAritmeticos {
         // cuadradoSemisuma = semiSuma*semiSuma;
 
 
+        //-------------------------------------------------
+        // 7. Cuádruple de la diferencia entre ambos números.
+
+        diferencia = numero1 - numero2;
+        cuadrupleDiferencia = diferencia * 4;
+
+        //-------------------------------------------------
+        // 8. Mitad del cuadrado de la suma por la diferencia de ambos números.
+
+        // 1º forma
+        mitadCuadrado = ((suma * suma) * diferencia) / 2;
 
 
+        // 2º Forma: Calcular la suma de los dos números
+        suma = numero1 + numero2;
+
+        // Calcular la diferencia de los dos números
+        diferencia = numero1 - numero2;
+
+        // Calcular la mitad del cuadrado de la suma por la diferencia de ambos números
+        //mitadCuadrado = 0.5 * Math.pow(suma, 2) * diferencia;
 
 
         System.out.println("RESULTADO");
@@ -132,6 +131,8 @@ public class CalculosAritmeticos {
         System.out.println("Tres cuartos del primer numero: " + tresCuartos);
 
         System.out.println("Cuadrado de la semisuma de los dos numeros: " + semiSuma);
+
+        System.out.println("La mitad del cuadrado de la suma por la diferencia de ambos números: " + mitadCuadrado);
 
     }
 }
